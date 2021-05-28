@@ -49,8 +49,7 @@ const Login = () => {
             </div>
             <div class="col-md-5 d-flex justify-content-center">
                 <div className="d-flex mt-5 pt-5">
-                        <button className="btn btn-info text-white p-2 fw-bold fs-3 align-items-center" onClick={googleSignIn}><FontAwesomeIcon icon={faGoogle} className="me-2 align-items-center"/>Sign In With Google</button>
-
+                    <button className="btn btn-info text-white p-2 fw-bold fs-3 align-items-center" onClick={googleSignIn}><FontAwesomeIcon icon={faGoogle} className="me-2 align-items-center" />Sign In With Google</button>
                 </div>
             </div>
         </div>
